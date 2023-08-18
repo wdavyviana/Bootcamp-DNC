@@ -1,0 +1,241 @@
+        *{
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            padding: 0;
+        }
+        body{
+            background: linear-gradient(180deg, #053777 24.91%, #303030 30.84%);
+            background-repeat: no-repeat;
+
+
+        }
+        nav{
+            display: grid;
+            grid-auto-flow: column;
+            background-color: #303030;
+        }
+        #menu{
+            margin-left: 78px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        #menu a{
+            text-decoration: none;
+            margin-right: 17px;
+            color: #ffff;
+        }
+        #buttonMenu{
+            width: 70px;
+            height: 30px;
+            background: #0C70F2;
+            color: white;
+            border: 0;
+            margin-top: 25px;
+            margin-left: 65%;
+            margin-right: 35%;
+            cursor: pointer;
+            box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
+
+        }
+        #title{
+            text-align: center;
+            color: white;
+        }
+        #title h1{
+            font-size: 70px;
+            font-weight: 800;
+            line-height: 97px;
+            letter-spacing: 0em;
+            margin-top: 70px;
+
+        }
+        #title p{
+        
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+        }
+        #title p a{
+            background-color: black;
+        }
+        #forms{
+            display: block;
+            color:white;
+            margin: 0 auto;
+        }
+        .text{
+            width: 410px;
+            height: 43px;
+            border-radius: 10px;
+            background-color:#FFFFFFE5;
+            padding-left: 10px;
+            border:0;
+            
+        }
+        #login{
+            width: 420px;
+            height: 43px;
+            border-radius: 10px;
+            background-color: #0C70F2;
+            color:#ffff;
+            border: 0;
+            margin-top: 60px;
+            cursor: pointer;
+        }
+        form{
+            margin-top: 150px;
+            margin-bottom: 200px;
+            ;
+        }
+        .form-group{
+            display: block;
+            margin: 0 auto;
+            width: 425px;
+            margin-bottom: 20px;
+        }
+        .label{
+            font-size: 20px;
+            line-height: 28px;
+        }
+        #top{
+            display: grid;
+            grid-auto-flow: column;
+            text-align: center;
+        }
+        .footercolumn a{
+            text-decoration: none;
+            color: white;
+        
+        }
+        .footercolumn ul{
+            list-style-type:none;
+        }
+        .footercolumn li{
+            margin: 20px 0px 20px 0px;
+        }
+        .footercolumn h3{
+            background-color: #303030;
+            color: white;
+            width: 135px;
+            height: 30px;
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-top: 50px;
+            padding-top: 5px;
+
+        }
+        footer{
+            background-color: #0C70F2;
+        }
+        .endereco{
+            margin-top:120px;
+            color: white;
+        }
+        #bottom{
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center;
+            margin-top: 50px;
+        padding-bottom: 20px;
+        }
+        #bottom a{
+            color: white;
+            text-decoration: none;
+        }
+@media only screen and (max-width: 768px) {
+    
+    #menu{
+       text-align: center;
+       margin: 0 auto;
+       padding-top:20px;
+       padding-bottom: 20px;
+    }
+
+    #menu a {
+        font-size: 13px;
+        margin-right: 10px;
+        margin: 0 auto;
+    }
+
+    #buttonMenu{
+       display: none;
+    }
+    #title h1{
+       max-width: 300px;
+       font-size: 42px;
+       line-height:normal;
+       text-align: center;
+       margin:0 auto; 
+       margin-top: 40px;
+    }
+    #title p{
+        
+        font-size: 17px;
+        max-width: 300px;
+        line-height: normal;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .text{
+        width: 250px;
+        height: 33px;
+        border-radius: 10px;
+        background-color:#FFFFFFE5;
+        padding-left: 10px;
+        border:0;
+       
+    }
+    .label{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    form{
+        max-width: 265px;
+        margin-top: 150px;
+        margin-bottom: 200px;
+        margin: 150px auto;
+        justify-content: center;
+        
+    }
+  
+    #login{
+        width: 260px;
+        height: 33px;
+        border-radius: 10px;
+    }
+    .labelcheck{
+        font-size: 13px;
+    }
+    .footercolumn h3{
+        max-width: 95px;
+        max-height: 20px;
+        font-size: 13px;
+    }
+    .footercolumn a{
+        font-size: 10px;
+    }
+    .footercolumn li{
+        margin: 10px 0px 10px 0px;
+    }
+    .endereco{
+        font-size: 10px;
+        max-width: 130px;
+        margin:30px auto;
+    }
+    #bottom{
+        margin-top: 20px;
+    }
+    #bottom a{
+        font-size: 11px;
+    }
+    #top{
+        flex-direction: column;
+        grid-auto-flow: dense;
+    }
+}
