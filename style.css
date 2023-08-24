@@ -9,20 +9,32 @@
 
 
         }
+        #menu2{
+            display: none;
+        }
         nav{
             display: grid;
             grid-auto-flow: column;
             background-color: #303030;
         }
+        #menu ul{
+            text-decoration: none;
+            list-style-type:none;
+            display: flex;
+          
+        }
         #menu{
             margin-left: 78px;
             margin-top: 30px;
             margin-bottom: 30px;
+            text-decoration: none;
         }
         #menu a{
             text-decoration: none;
             margin-right: 17px;
             color: #ffff;
+            text-decoration: none;
+
         }
         #buttonMenu{
             width: 70px;
@@ -147,18 +159,34 @@
             text-decoration: none;
         }
 @media only screen and (max-width: 768px) {
+    #menu2{
+        display: block;
+        min-height: 20px;
+        background-color: #303030;
+    }
+    #menu2 img{
+        max-width: 64px;
+    }
+    nav{
+        display: block;
+        background-color: #434343;
+    }
+    #menu ul{
+        display: block;
+    }
     
     #menu{
        text-align: center;
        margin: 0 auto;
-       padding-top:20px;
-       padding-bottom: 20px;
+      
     }
 
     #menu a {
+        display: block;
         font-size: 13px;
-        margin-right: 10px;
         margin: 0 auto;
+        border: 1px solid #535353;
+        padding: 5px;
     }
 
     #buttonMenu{
